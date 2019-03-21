@@ -307,4 +307,23 @@ body {
   color: #f26002;
 }
 
+@media all and (min-width: 768px) {
+  .page__header {
+    height: 768px;
+  }
+
+  .hero__anonymous {
+    font-size: 40px;
+  }
+
+  .hero__habitasse-text {
+    font-size: 24px;
+  }
+
+  .main__block1 {
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

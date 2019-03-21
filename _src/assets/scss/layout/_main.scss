@@ -7,6 +7,10 @@
 .main__block1 {
     padding: $padding-mobile;
     padding-bottom: 45px;
+    @media all and (min-width: 768px) {
+        padding-left: 39px;
+        padding-right: 39px;
+    }
 }
 
 .main__block1-title {
