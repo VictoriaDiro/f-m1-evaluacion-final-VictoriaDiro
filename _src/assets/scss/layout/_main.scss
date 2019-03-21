@@ -64,87 +64,70 @@
 
 .main_block2-list {
     margin: 0;
-    padding: 0 0 45px 0;
+    padding: 0 70px 45px 70px;
     list-style: none;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
     grid-gap: 45px;
 
     @media all and (min-width: 768px) {
+        padding: 0 40px 60px 40px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
-}
-
-.mb2-1 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    @media all and (min-width: 1200px) {
+        padding: 0 85px 60px 85px;
+    }
 }
 
 .main__block2-subtitle1 {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    @media all and (min-width: 768px) {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
 }
 .main__block2-text1 {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-}
-
-.mb2-2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    @media all and (min-width: 768px) {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
 }
 
 .main__block2-subtitle2 {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    @media all and (min-width: 768px) {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
 }
 
 .main__block2-text2 {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-}
-
-.mb2-3 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    @media all and (min-width: 768px) {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
 }
 
 .main__block2-subtitle3 {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    @media all and (min-width: 768px) {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
 }
 .main__block2-text3 {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-}
-
-@media all and (min-width: 768px) {
-    .main__block2-subtitle1 {
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
-    }
-    .main__block2-text1 {
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
-    }
-    .main__block2-subtitle2 {
-        grid-column: 2 / 3;
-        grid-row: 2 / 3;
-    }
-    .main__block2-text2 {
-        grid-column: 2 / 3;
-        grid-row: 2 / 3;
-    }
-    .main__block2-subtitle3 {
-        grid-column: 3 / 4;
-        grid-row: 1 / 2;
-    }
-    .main__block2-text3 {
+    @media all and (min-width: 768px) {
         grid-column: 3 / 4;
         grid-row: 2 / 3;
     }
