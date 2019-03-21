@@ -2,6 +2,12 @@
     padding: $padding-mobile;
 }
 
+// Block Looking
+
+.main__block1 {
+    padding-bottom: 45px;
+}
+
 .main__block1-title {
     color: $color-light-blue;
     font-family: $font-family-secondary;
@@ -22,13 +28,17 @@
     line-height: 1.67;
 }
 
+// Button Go
+
 .main__button-go {
     width: 75px;
     height: 45px;
-    border-radius: 25%;
+    border-radius: 70px;
     border: 2px solid $color-orange;
     background-color: white;
     color: $color-orange;
+    font-size: $font-size-l;
+    text-transform: capitalize;
 }
 
 .main__block2 {
