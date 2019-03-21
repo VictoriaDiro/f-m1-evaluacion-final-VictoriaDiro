@@ -3,4 +3,8 @@ body {
   height: 100vh;
 }
 
+.header__img {
+  background: cover;
+}
+
 /*# sourceMappingURL=main.css.map */
