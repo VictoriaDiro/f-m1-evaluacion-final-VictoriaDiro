@@ -1,10 +1,57 @@
 body {
   background: url("../images/logo-adalab-80px.png") center center no-repeat #f3f4f5;
   height: 100vh;
+  margin: 0;
 }
 
-.header__img {
-  background: cover;
+.hero__container {
+  height: 100vh;
+  background-image: url("/assets/images/cover.jpg");
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero__anonymous {
+  width: 100vw;
+  color: #f3f4f5;
+  font-size: 42px;
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero__habitasse-text {
+  width: 100vw;
+  color: #f3f4f5;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.hero__button-down {
+  background-color: #f3f4f5;
+  background-size: 45px 45px;
+  -webkit-transform: scale(3);
+  transform: scale(3);
+  border-radius: 50%;
+}
+
+.hero__button-down-img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
 
 /*# sourceMappingURL=main.css.map */

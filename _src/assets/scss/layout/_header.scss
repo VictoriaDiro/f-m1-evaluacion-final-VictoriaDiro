@@ -1,3 +1,38 @@
-.header__img {
-    background: cover;
+.hero__container {
+    height: 100vh;
+    background-image: url("/assets/images/cover.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__anonymous {
+    width: 100vw;
+    color: $color-white;
+    font-size: 42px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hero__habitasse-text {
+    width: 100vw;
+    color: $color-white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.hero__button-down {
+    background-color: $color-white;
+    background-size: 45px 45px;
+    transform: scale(3);
+    border-radius: 50%;
+}
+
+.hero__button-down-img {
+    transform: scale(1);
 }
