@@ -87,20 +87,18 @@ body {
 .main__block2 {
   margin: 0;
   background-color: #eff9ff;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "subtitle" "text";
+  grid-gap: 5px;
 }
 
 .main__block2-title1 {
   font-family: "Roboto Slab", serif;
   font-size: 24px;
   text-align: center;
-}
-
-.block2__grip {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "subtitle" "text";
-  grid-gap: 5px;
 }
 
 .subtitle {
