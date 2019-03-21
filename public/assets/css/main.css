@@ -114,9 +114,11 @@ body {
   color: #8ccbea;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
+  font-weight: normal;
 }
 
 .main__block1-subtitle {
+  margin: 0;
   font-family: "Roboto Slab", serif;
   font-size: 24px;
 }
@@ -125,6 +127,7 @@ body {
   color: #4a4a4a;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
+  line-height: 1.67;
 }
 
 .main__button-go {

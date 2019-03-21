@@ -6,9 +6,11 @@
     color: $color-light-blue;
     font-family: $font-family-secondary;
     font-size: $font-size-xs;
+    font-weight: normal;
 }
 
 .main__block1-subtitle {
+    margin: 0;
     font-family: $font-family-primary;
     font-size: $font-size-xl;
 }
@@ -17,6 +19,7 @@
     color: #4a4a4a;
     font-family: $font-family-secondary;
     font-size: $font-size-m;
+    line-height: 1.67;
 }
 
 .main__button-go {
