@@ -1,12 +1,23 @@
-body {
-  background: url("../images/logo-adalab-80px.png") center center no-repeat #ffffff;
-  height: 100vh;
+html,body {
   margin: 0;
 }
 
-.hero__container {
+.hero__menu {
+  background-color: #304268;
+  height: 44px;
+  width: 44px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.page__header {
   height: 100vh;
   background-image: url("/assets/images/cover.jpg");
+  width: 100vw;
+}
+
+.hero__container {
   background-position: center;
   background-size: cover;
   display: -webkit-box;
@@ -25,7 +36,8 @@ body {
 }
 
 .hero__anonymous {
-  width: 100vw;
+  margin: 0;
+  width: 100%;
   color: #ffffff;
   font-size: 42px;
   font-family: 'Roboto Slab', serif;
@@ -33,12 +45,26 @@ body {
   text-align: center;
 }
 
+.hero__anonymous-text {
+  margin: 0;
+  width: 100%;
+}
+
+.hero__habitasse {
+  width: 100%;
+  padding-top: 10px;
+}
+
 .hero__habitasse-text {
-  width: 100vw;
+  width: 100%;
   color: #ffffff;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   text-align: center;
+}
+
+.botton__down-container {
+  padding-top: 45px;
 }
 
 .hero__button-down {
@@ -46,12 +72,12 @@ body {
   background-size: 45px 45px;
   -webkit-transform: scale(3);
   transform: scale(3);
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 .hero__button-down-img {
-  -webkit-transform: scale(1);
-  transform: scale(1);
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
 }
 
 .main__container {

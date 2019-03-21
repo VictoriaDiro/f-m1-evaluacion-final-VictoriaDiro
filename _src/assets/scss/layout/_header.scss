@@ -1,6 +1,20 @@
-.hero__container {
+.hero__menu {
+    background-color: $color-dark-blue;
+    height: 44px;
+    width: 44px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.page__header {
     height: 100vh;
     background-image: url("/assets/images/cover.jpg");
+    width: 100vw;
+}
+
+.hero__container {
+    
     background-position: center;
     background-size: cover;
     display: flex;
@@ -10,7 +24,8 @@
 }
 
 .hero__anonymous {
-    width: 100vw;
+    margin: 0;
+    width: 100%;
     color: $color-white;
     font-size: 42px;
     font-family: 'Roboto Slab', serif;
@@ -18,21 +33,36 @@
     text-align: center;
 }
 
+.hero__anonymous-text {
+    margin: 0;
+    width: 100%;
+}
+
+.hero__habitasse {
+    width: 100%;
+    padding-top: 10px; 
+}
+
 .hero__habitasse-text {
-    width: 100vw;
+    width: 100%;
     color: $color-white;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
+.botton__down-container {
+    padding-top: 45px;
+}
+
 .hero__button-down {
+    
     background-color: $color-white;
     background-size: 45px 45px;
     transform: scale(3);
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 .hero__button-down-img {
-    transform: scale(1);
+    transform: scale(0.5);
 }
