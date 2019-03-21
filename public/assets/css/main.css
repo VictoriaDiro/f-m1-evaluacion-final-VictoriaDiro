@@ -1,11 +1,23 @@
-html,body {
+body {
   margin: 0;
+  width: 100%;
+  height: 100vh;
 }
 
 .hero__menu {
-  background-color: #304268;
   height: 44px;
   width: 44px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.hero__menu-img {
+  width: 16px;
+  height: 14px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  background-color: #0271bc;
   position: fixed;
   top: 0;
   left: 0;
@@ -14,12 +26,10 @@ html,body {
 .page__header {
   height: 100vh;
   background-image: url("/assets/images/cover.jpg");
-  width: 100vw;
-}
-
-.hero__container {
   background-position: center;
   background-size: cover;
+  top: 0;
+  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,6 +37,26 @@ html,body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero__container {
+  -webkit-transform: translateY(-20%);
+  transform: translateY(-20%);
+}
+
+.hero__anonymous {
+  margin: 0;
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  text-align: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -35,19 +65,8 @@ html,body {
   align-items: center;
 }
 
-.hero__anonymous {
-  margin: 0;
-  width: 100%;
-  color: #ffffff;
-  font-size: 42px;
-  font-family: 'Roboto Slab', serif;
-  text-transform: uppercase;
-  text-align: center;
-}
-
 .hero__anonymous-text {
   margin: 0;
-  width: 100%;
 }
 
 .hero__habitasse {
@@ -61,23 +80,30 @@ html,body {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  font-weight: normal;
 }
 
 .botton__down-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
   padding-top: 45px;
 }
 
 .hero__button-down {
   background-color: #ffffff;
-  background-size: 45px 45px;
-  -webkit-transform: scale(3);
-  transform: scale(3);
-  border-radius: 100%;
+  border-radius: 50%;
+  border: 12px solid white;
 }
 
 .hero__button-down-img {
-  -webkit-transform: scale(0.5);
-  transform: scale(0.5);
+  -webkit-transform: translateY(3px);
+  transform: translateY(3px);
 }
 
 .main__container {

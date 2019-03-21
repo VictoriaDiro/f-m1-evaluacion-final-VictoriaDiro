@@ -1,42 +1,58 @@
+// Menú superior izquierdo
+
 .hero__menu {
-    background-color: $color-dark-blue;
     height: 44px;
     width: 44px;
+    position: fixed;
+    top: 0;
+    left: 0; 
+}
+
+.hero__menu-img {
+    width: 16px;
+    height: 14px;
+    object-fit: contain;
+    background-color: $color-blue;
+    $color-white: $color-white;
     position: fixed;
     top: 0;
     left: 0;
 }
 
+// Hero - Anonymous 
+
 .page__header {
     height: 100vh;
     background-image: url("/assets/images/cover.jpg");
-    width: 100vw;
-}
-
-.hero__container {
-    
     background-position: center;
     background-size: cover;
+    top: 0;
+    width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+}
+.hero__container {
+    transform: translateY(-20%)
 }
 
 .hero__anonymous {
     margin: 0;
-    width: 100%;
     color: $color-white;
-    font-size: 42px;
+    font-size: 22px;
     font-family: 'Roboto Slab', serif;
     text-transform: uppercase;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero__anonymous-text {
     margin: 0;
-    width: 100%;
 }
+
+// Hero - Habitasse
 
 .hero__habitasse {
     width: 100%;
@@ -49,20 +65,25 @@
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    font-weight: normal;
 }
 
+// Hero -Button
+
 .botton__down-container {
-    padding-top: 45px;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   padding-top: 45px;
 }
 
 .hero__button-down {
-    
     background-color: $color-white;
-    background-size: 45px 45px;
-    transform: scale(3);
-    border-radius: 100%;
+    border-radius: 50%;
+    border: 12px solid white;    
 }
 
 .hero__button-down-img {
-    transform: scale(0.5);
+    transform: translateY(3px)
+  
 }

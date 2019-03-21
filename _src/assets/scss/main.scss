@@ -1,8 +1,11 @@
 @import 'core/settings';
 @import 'core/variables';
 
-html, body {
+
+body {
 	margin: 0;
+	width: 100%;
+	height: 100vh;
 }
 
 @import 'layout/header';
