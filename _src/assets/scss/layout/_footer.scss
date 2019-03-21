@@ -1,3 +1,7 @@
+.page__footer {
+    background-color: $color-dark-blue;
+}
+
 // Button Top
 
 .footer__button-up-comtainer {
@@ -15,27 +19,29 @@
     height: 45px;
     background-color: $color-white;
     border-radius: 50%;
+    border: 0;
 }
 
-.page__footer {
-    background-color: $color-dark-blue;
-}
+// Menu
 
 .footer__menu {
+    padding: 0;
     list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
-}
-
-.footer__menu-item {
+    align-items: center; 
     color: $color-white;
     font-family: $font-family-secondary;
     font-size: $font-size-s;
+    text-transform: uppercase;
+    line-height: 1.88; 
 }
 
+// RRSS
+
 .footer__rrss {
+    padding: 0;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -44,7 +50,11 @@
     color: $color-white;
     font-family: $font-family-secondary;
     font-size: $font-size-s;
+    text-transform: uppercase;
+    line-height: 1.88;
 }
+
+// Copyright
 
 .footer__copyrigth {
     padding: 15px;
@@ -55,7 +65,7 @@
 }
 
 .footer__love {
-    padding: 15px 15px 60px 15px;
+    padding: 0px 15px 60px 15px;
     text-align: center;
     color: $color-white;
     font-family: $font-family-secondary;

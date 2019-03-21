@@ -206,11 +206,15 @@ body {
   margin: 0;
   padding: 0;
   border-radius: 70px;
-  border-bottom: none;
+  border: 0;
   background-color: #f26002;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
+}
+
+.page__footer {
+  background-color: #304268;
 }
 
 .footer__button-up-comtainer {
@@ -234,13 +238,11 @@ body {
   height: 45px;
   background-color: #ffffff;
   border-radius: 50%;
-}
-
-.page__footer {
-  background-color: #304268;
+  border: 0;
 }
 
 .footer__menu {
+  padding: 0;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -255,15 +257,15 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.footer__menu-item {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1.88;
 }
 
 .footer__rrss {
+  padding: 0;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -281,6 +283,8 @@ body {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1.88;
 }
 
 .footer__copyrigth {
@@ -292,7 +296,7 @@ body {
 }
 
 .footer__love {
-  padding: 15px 15px 60px 15px;
+  padding: 0px 15px 60px 15px;
   text-align: center;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
