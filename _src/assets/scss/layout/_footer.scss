@@ -1,0 +1,49 @@
+.page__footer {
+    background-color: $color-dark-blue;
+}
+
+.footer__menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer__menu-item {
+    color: $color-white;
+    font-family: $font-family-secondary;
+    font-size: $font-size-s;
+}
+
+.footer__rrss {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $color-white;
+    font-family: $font-family-secondary;
+    font-size: $font-size-s;
+}
+
+.footer__copyrigth {
+    padding: 15px;
+    text-align: center;
+    color: $color-white;
+    font-family: $font-family-secondary;
+    font-size: $font-size-xs;
+}
+
+.footer__love {
+    padding: 15px 15px 60px 15px;
+    text-align: center;
+    color: $color-white;
+    font-family: $font-family-secondary;
+    font-size: $font-size-xs;
+}
+
+.heart {
+    color: $color-orange;
+}
