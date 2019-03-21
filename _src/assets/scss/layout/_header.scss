@@ -39,6 +39,9 @@
 
 .hero__container {
     transform: translateY(-30%);
+    @media all and (min-width: 1200px) {
+        transform: translateY(-10%);
+    }
 }
 
 .hero__anonymous {
@@ -52,6 +55,9 @@
     align-items: center;
     @media all and (min-width: 768px) {
         font-size: 40px;
+    }
+    @media all and (min-width: 1200px) {
+        font-size: 60px;
     }
 }      
 

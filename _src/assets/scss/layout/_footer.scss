@@ -1,5 +1,8 @@
 .page__footer {
     background-color: $color-dark-blue;
+    @media all and (min-width: 1200px) {
+        padding: 0 370px 0 370px;
+    }
 }
 
 // Button Top
@@ -30,10 +33,17 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
     }
+    @media all and (min-width: 1200px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
 }
 
 .footer__menu {
-    padding: 0;
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 30px; 
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -52,7 +62,8 @@
 // RRSS
 
 .footer__rrss {
-    padding: 0;
+    margin: 0;
+    padding-left: 0;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -73,6 +84,7 @@
 .footer__grid-copy {
     @media all and (min-width: 768px) {
         grid-column: 1 / 2;
+        grid-row: 1 / 2;
     }
 }
 

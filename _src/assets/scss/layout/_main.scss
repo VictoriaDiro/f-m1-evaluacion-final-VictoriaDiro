@@ -1,15 +1,13 @@
-.page__main {
-    padding-bottom: 60px;
-}
-
 // Block Looking
 
 .main__block1 {
     padding: $padding-mobile;
     padding-bottom: 45px;
     @media all and (min-width: 768px) {
-        padding-left: 39px;
-        padding-right: 39px;
+        padding: 0 39px 0 39px;
+    }
+    @media all and (min-width: 1200px) {
+        padding: 60px 275px 60px 275px;
     }
 }
 
@@ -50,43 +48,79 @@
 
 .main__block2 {
     padding-top: 30px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "title" "subtitle" text;
-    grid-gap: 45px;
     background-color: #eff9ff;
-    @media all and (min-width: 768px) {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
 }
 
 .main__block2-title1 {
+    display: block;
     margin: 0;
-    padding: 0 0 45px 0;
+    padding-top: 30px;
+    background-color: #eff9ff;
     height: 30px;
-    list-style: none;
     font-family: $font-family-primary;
     font-size: $font-size-xl;
     text-align: center;
 }
 
-.subtitle {
-    font-family: $font-family-primary;
-    font-size: $font-size-m;
-    grid-column: span 1;
-    grid-row: span 1;
-    text-align: center;
-    padding: 0 70px 0 70px;
+.main_block2-list {
+    margin: 0;
+    padding: 0 0 45px 0;
+    list-style: none;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 45px;
+
+    @media all and (min-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
 }
 
-.text {
-    font-family: $font-family-secondary;
-    font-size: $font-size-m;
-    grid-column: span 1;
-    text-align: center;
-    padding: 0 70px 0 70px;
+.mb2-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.main__block2-subtitle1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.main__block2-text1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.mb2-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.main__block2-subtitle2 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.main__block2-text2 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.mb2-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.main__block2-subtitle3 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.main__block2-text3 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
 }
 
 @media all and (min-width: 768px) {
@@ -116,13 +150,28 @@
     }
 }
 
+.subtitle {
+    margin: 0;
+    font-family: $font-family-primary;
+    font-size: $font-size-m;
+    text-align: center;
+}
+
+.text {
+    margin: 0;
+    font-family: $font-family-secondary;
+    font-size: $font-size-m;
+    text-align: center;
+}
+
 // Button Reasons
 
 .button__reasons-container {
+    background-color: #eff9ff;
+    padding-bottom: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 200px;
 }
 .main__button-reasons {
     width: 190px;
