@@ -24,6 +24,14 @@
 
 // Menu
 
+.footer__grid {
+    @media all and (min-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
 .footer__menu {
     padding: 0;
     list-style: none;
@@ -36,6 +44,9 @@
     font-size: $font-size-s;
     text-transform: uppercase;
     line-height: 1.88; 
+    @media all and (min-width: 768px) {
+        grid-column: 2 / 3;
+    }
 }
 
 // RRSS
@@ -52,9 +63,18 @@
     font-size: $font-size-s;
     text-transform: uppercase;
     line-height: 1.88;
+    @media all and (min-width: 768px) {
+        grid-column: 3 / 4;
+    }
 }
 
 // Copyright
+
+.footer__grid-copy {
+    @media all and (min-width: 768px) {
+        grid-column: 1 / 2;
+    }
+}
 
 .footer__copyrigth {
     padding: 15px;
