@@ -1,0 +1,74 @@
+.main__container {
+    padding: $padding-mobile;
+}
+
+.main__block1-title {
+    color: $color-light-blue;
+    font-family: $font-family-secondary;
+    font-size: $font-size-xs;
+}
+
+.main__block1-subtitle {
+    font-family: $font-family-primary;
+    font-size: $font-size-xl;
+}
+
+.main__block1-text {
+    color: #4a4a4a;
+    font-family: $font-family-secondary;
+    font-size: $font-size-m;
+}
+
+.main__button-go {
+    width: 75px;
+    height: 45px;
+    border-radius: 25%;
+    border: 2px solid $color-orange;
+    background-color: white;
+    color: $color-orange;
+}
+
+.main__block2 {
+    margin: 0;
+    background-color: #eff9ff;
+}
+
+.main__block2-title1 {
+    font-family: $font-family-primary;
+    font-size: $font-size-xl;
+    text-align: center;
+}
+
+.block2__grip {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "subtitle" "text";
+    grid-gap: 5px;
+}
+
+.subtitle {
+    font-family: $font-family-primary;
+    font-size: $font-size-m;
+    grid-column: span 1;
+    text-align: center;
+}
+
+.text {
+    font-family: $font-family-secondary;
+    font-size: $font-size-m;
+    grid-column: span 1;
+    text-align: center;
+}
+
+.button__reasons-container {
+    display: flex;
+    justify-content: center;
+}
+.main__button-reasons {
+    width: 75px;
+    height: 45px;
+    border-radius: 25%;
+    background-color: $color-orange;
+    color: $color-white;
+}

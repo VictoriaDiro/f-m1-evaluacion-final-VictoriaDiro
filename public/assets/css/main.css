@@ -1,5 +1,5 @@
 body {
-  background: url("../images/logo-adalab-80px.png") center center no-repeat #f3f4f5;
+  background: url("../images/logo-adalab-80px.png") center center no-repeat #ffffff;
   height: 100vh;
   margin: 0;
 }
@@ -26,7 +26,7 @@ body {
 
 .hero__anonymous {
   width: 100vw;
-  color: #f3f4f5;
+  color: #ffffff;
   font-size: 42px;
   font-family: 'Roboto Slab', serif;
   text-transform: uppercase;
@@ -35,14 +35,14 @@ body {
 
 .hero__habitasse-text {
   width: 100vw;
-  color: #f3f4f5;
+  color: #ffffff;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
 .hero__button-down {
-  background-color: #f3f4f5;
+  background-color: #ffffff;
   background-size: 45px 45px;
   -webkit-transform: scale(3);
   transform: scale(3);
@@ -52,6 +52,86 @@ body {
 .hero__button-down-img {
   -webkit-transform: scale(1);
   transform: scale(1);
+}
+
+.main__container {
+  padding: 15px;
+}
+
+.main__block1-title {
+  color: #8ccbea;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.main__block1-subtitle {
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+}
+
+.main__block1-text {
+  color: #4a4a4a;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.main__button-go {
+  width: 75px;
+  height: 45px;
+  border-radius: 25%;
+  border: 2px solid #f26002;
+  background-color: white;
+  color: #f26002;
+}
+
+.main__block2 {
+  margin: 0;
+  background-color: #eff9ff;
+}
+
+.main__block2-title1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.block2__grip {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "subtitle" "text";
+  grid-gap: 5px;
+}
+
+.subtitle {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  grid-column: span 1;
+  text-align: center;
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  grid-column: span 1;
+  text-align: center;
+}
+
+.button__reasons-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.main__button-reasons {
+  width: 75px;
+  height: 45px;
+  border-radius: 25%;
+  background-color: #f26002;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=main.css.map */
