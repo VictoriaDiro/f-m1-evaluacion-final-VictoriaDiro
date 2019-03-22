@@ -281,6 +281,11 @@ body {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
+.footer__button-up:hover {
+  width: 65px;
+  height: 65px;
+}
+
 .footer__menu {
   margin: 0;
   padding-left: 0;
