@@ -140,10 +140,18 @@ body {
   height: 45px;
   border-radius: 70px;
   border: 2px solid #f26002;
-  background-color: white;
+  background-color: #ffffff;
   color: #f26002;
   font-size: 20px;
   text-transform: capitalize;
+  -webkit-transition: width ease 0.5s, height ease 0.5s;
+  transition: width ease 0.5s, height ease 0.5s;
+}
+
+.main__button-go:hover {
+  width: 85px;
+  background-color: #f26002;
+  color: #ffffff;
 }
 
 .main__block2 {
@@ -232,6 +240,15 @@ body {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
+  -webkit-transition: width ease 0.5s, height ease 0.5s;
+  transition: width ease 0.5s, height ease 0.5s;
+}
+
+.main__button-reasons:hover {
+  width: 210px;
+  border: 2px solid #f26002;
+  background-color: #ffffff;
+  color: #f26002;
 }
 
 .page__footer {
