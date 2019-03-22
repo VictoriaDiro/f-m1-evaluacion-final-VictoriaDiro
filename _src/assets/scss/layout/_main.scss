@@ -57,14 +57,14 @@
 
 .main__block2 {
     padding-top: 30px;
-    background-color: #eff9ff;
+    background-color: $color-litle-blue;
 }
 
 .main__block2-title1 {
     display: block;
     margin: 0;
     padding-top: 30px;
-    background-color: #eff9ff;
+    background-color: $color-litle-blue;
     height: 30px;
     font-family: $font-family-primary;
     font-size: $font-size-xl;
@@ -141,7 +141,7 @@
 // Button Reasons
 
 .button__reasons-container {
-    background-color: #eff9ff;
+    background-color: $color-litle-blue;
     padding-bottom: 60px;
     display: flex;
     justify-content: center;
