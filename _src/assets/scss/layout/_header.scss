@@ -1,22 +1,22 @@
 // Menú superior izquierdo
 
 .hero__menu {
+    background-color: $color-blue;
     height: 44px;
     width: 44px;
     position: fixed;
     top: 0;
     left: 0; 
+    z-index: 0;
 }
 
 .hero__menu-img {
     width: 16px;
     height: 14px;
-    object-fit: contain;
-    background-color: $color-blue;
-    $color-white: $color-white;
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    z-index: 1;
 }
 
 // Hero - Anonymous 
