@@ -29,6 +29,9 @@
     font-family: $font-family-secondary;
     font-size: $font-size-m;
     line-height: 1.67;
+    @media all and (min-width: 768px) {
+        font-size: $font-size-l;
+    }
 }
 
 // Button Go
@@ -77,7 +80,9 @@
     @media all and (min-width: 768px) {
         padding: 0 40px 60px 40px;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+        "block__item1 block__item2 block__item3";
     }
     @media all and (min-width: 1200px) {
         padding: 0 85px 60px 85px;
@@ -103,27 +108,27 @@
 .block__item1 {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    grid-area: block__item1;
     @media all and (min-width: 768px) {
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
+        grid-column: span 1;
     }
 }
 
 .block__item2 {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+    grid-area: block__item2;
     @media all and (min-width: 768px) {
-        grid-column: 2 / 3;
-        grid-row: 2 / 3;
+        grid-column: span 1;
     }
 }
 
 .block__item3 {
     grid-column: 1 / 2;
     grid-row: 3 / 4;
+    grid-area: block__item3;
     @media all and (min-width: 768px) {
-        grid-column: 3 / 4;
-        grid-row: 1 / 2;
+        grid-column: span 1;
     }
 }
 
