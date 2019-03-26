@@ -253,7 +253,7 @@ body {
 }
 
 .page__footer {
-  background-color: #304268;
+  background-color: #0271bc;
 }
 
 .footer__button-up-comtainer {
@@ -290,7 +290,7 @@ body {
 .footer__menu {
   margin: 0;
   padding-left: 0;
-  padding-bottom: 30px;
+  padding-bottom: 45px;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -305,7 +305,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  color: #ffffff;
+  color: black;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   text-transform: uppercase;
@@ -329,25 +329,37 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  color: #ffffff;
+  padding-bottom: 30px;
+  color: black;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   text-transform: uppercase;
   line-height: 1.88;
 }
 
+.footer__grid-copy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  padding-bottom: 60px;
+}
+
 .footer__copyrigth {
   padding: 15px;
   text-align: center;
-  color: #ffffff;
+  color: black;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
 
 .footer__love {
-  padding: 0px 15px 60px 15px;
+  padding: 0px 15px;
   text-align: center;
-  color: #ffffff;
+  color: black;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
@@ -435,6 +447,10 @@ body {
   .footer__love {
     text-align: left;
     padding-left: 39px;
+  }
+
+  .components {
+    color: #f26002;
   }
 }
 
